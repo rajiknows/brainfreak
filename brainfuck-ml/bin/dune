@@ -1,0 +1,4 @@
+(executable
+ (public_name brainfuck-ml)
+ (name main)
+ (libraries brainfuck_ml))

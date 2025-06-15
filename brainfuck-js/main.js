@@ -42,8 +42,9 @@ function brainfuck(program) {
                     input_index = 0;
                 }
                 if (input_index < input_buffer.length) {
-                    tape[cell_index] =
-                        input_buffer[input_index++].charCodeAt(0);
+                    tape[cell_index] = input_buffer[input_index++].charCodeAt(
+                        0,
+                    );
                 }
                 break;
             case "[":
